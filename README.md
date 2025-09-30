@@ -11,5 +11,5 @@ All traffic originating from within the local network is by default allowed by a
 Investigate the root cause of the performance degradation and determine whether malicious or unauthorized internal activity — such as **network scanning** — was occurring.
 
 ## 🧠 Timeline Summary and Findings
-uring the investigation, a host named **`tugs-local-agen`** was found failing several connection requests against itself and another host on the same subnet.  
+During the investigation, a host named **`tugs-local-agen`** was found failing several connection requests against itself and another host on the same subnet.  
 Initial analysis of these connection failures indicated potential **network enumeration** or **port scanning activity** originating from **`10.1.1.8`**.
